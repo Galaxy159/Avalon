@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.31d6cfe0.css",
+    "main.js": "/static/js/main.0350d522.js",
+    "static/media/merlin.png": "/static/media/merlin.3bef839aeb76f9886251.png",
+    "static/media/percival.png": "/static/media/percival.e715d28d2601f3b2e966.png",
+    "static/media/morgana.png": "/static/media/morgana.50710c9bd7e5543dfa59.png",
+    "static/media/oberon.png": "/static/media/oberon.2481d2f7b479afa1f25f.png",
+    "static/media/mordred.png": "/static/media/mordred.1ee6ec697c3ca8e2f778.png",
+    "index.html": "/index.html",
+    "main.0350d522.js.map": "/static/js/main.0350d522.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.0350d522.js"
+  ]
+}
