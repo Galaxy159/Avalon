@@ -1,0 +1,29 @@
+.infoCard {
+  display: grid;
+  row-gap: 1rem;
+  justify-content: center;
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 30rem;
+  text-align: center;
+  overflow: hidden;
+  &__name {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 1rem;
+  }
+
+  &__img {
+    width: 30rem;
+  }
+
+  &__description {
+    width: 28rem;
+    font-size: 1.2rem;
+    text-align: right;
+    margin: 0 1rem 1rem 1rem;
+    font-size: 1.4rem;
+    display: grid;
+    row-gap: 1rem;
+  }
+}
