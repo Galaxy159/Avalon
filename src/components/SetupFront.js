@@ -10,6 +10,11 @@ export default function SetupFront() {
   function handleFormSubmit(event) {
     event.preventDefault();
     newCharacter && setCharacters([...characters, JSON.parse(newCharacter)]);
+    console.log(newCharacter);
+  }
+
+  function handleDeleteButton(id) {
+    setCharacters(characters.filter((character) => character.id !== id));
   }
 
   return (
@@ -34,7 +39,17 @@ export default function SetupFront() {
       </form>
       <div className="charactersGrid">
         {characters.map((character, index) => (
-          <Character details={character} key={index} />
+          <div className="charactersGrid__item" key={index}>
+            <Character details={character} />
+            <button
+              className="charactersGrid__item--btnDelete"
+              onClick={() => {
+                handleDeleteButton(character.id);
+              }}
+            >
+              Delete
+            </button>
+          </div>
         ))}
       </div>
     </>
