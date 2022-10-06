@@ -1,14 +1,84 @@
-// import percival from "../images/percival.png";
-// import mordred from "../images/mordred.png";
-// import merlin from "../images/merlin.png";
-// import oberon from "../images/oberon.png";
+import accolon from "../images/accolon.png";
+import agravin from "../images/agravin.png";
+import arthur from "../images/arthur.png";
+import assassin from "../images/assassin.png";
+import balin from "../images/balin.png";
+import balain from "../images/balain.png";
+import blanchefleur from "../images/blanchefleur.png";
+import bors from "../images/bors.png";
+import brute from "../images/brute.png";
+import caradoc from "../images/caradoc.png";
+import chiefgood1 from "../images/chiefgood1.png";
+import chiefgood2 from "../images/chiefgood2.png";
+import chiefbad1 from "../images/chiefbad1.png";
+import chiefbad2 from "../images/chiefbad2.png";
+import cordana from "../images/cordana.png";
+import dagonet from "../images/dagonet.png";
+import dummy from "../images/dummy.png";
+import ector from "../images/ector.png";
+import elaine from "../images/elaine.png";
+import evilmessenger from "../images/evilmessenger.png";
+import galahad from "../images/galahad.png";
+import sirgawain from "../images/sirgawain.png";
+import ginevra from "../images/ginevra.png";
+import gornemant from "../images/gornemant.png";
+import guinevere from "../images/guinevere.png";
+import huntergood from "../images/huntergood.png";
+import hunterbad from "../images/hunterbad.png";
+import inlove from "../images/inlove.png";
+import jarvan from "../images/jarvan.png";
+import messengerjunior from "../images/messengerjunior.png";
+import kingclaudas from "../images/kingclaudas.png";
+import lancelots from "../images/lancelots.png";
+import lot from "../images/lot.png";
+import servant from "../images/servant.png";
+import maeve from "../images/maeve.png";
+import meliagant from "../images/meliagant.png";
+import merlin from "../images/merlin.png";
+import merlinx from "../images/merlinx.png";
+import merlinapprentice from "../images/merlinapprentice.png";
+import melwas from "../images/melwas.png";
+import minion from "../images/minion.png";
+import mora from "../images/mora.png";
+import mordred from "../images/mordred.png";
 import morgana from "../images/morgana.png";
+import morgause from "../images/morgause.png";
+import mute from "../images/mute.png";
+import nerzhul from "../images/nerzhul.png";
+import nilrem from "../images/nilrem.png";
+import nimue from "../images/nimue.png";
+import oberon from "../images/oberon.png";
+import fakeoberon from "../images/fakeoberon.png";
+import pellinore from "../images/pellinore.png";
+import percival from "../images/percival.png";
+import polygraph from "../images/polygraph.png";
+import princeclaudin from "../images/princeclaudin.png";
+import puck from "../images/puck.png";
+import queenmab from "../images/queenmab.png";
+import raven from "../images/raven.png";
+import reversergood from "../images/reversergood.png";
+import reverserbad from "../images/reverserbad.png";
+import rougegood from "../images/rougegood.png";
+import rougebad from "../images/rougebad.png";
+import seer from "../images/seer.png";
+import messengersenior from "../images/messengersenior.png";
+import sirkay from "../images/sirkay.png";
+import sirrobin from "../images/sirrobin.png";
+import stray from "../images/stray.png";
+import coward from "../images/coward.png";
+import greenknight from "../images/greenknight.png";
+import questingbeast from "../images/questingbeast.png";
+import revealer from "../images/revealer.png";
+import titania from "../images/titania.png";
+import tomthumb from "../images/tomthumb.png";
+import utherpendragon from "../images/utherpendragon.png";
+import viviana from "../images/viviana.png";
 
 export const characterList = [
   {
     id: 0,
     name: "Accolon",
-    image: morgana,
+    image: accolon,
     reason: "הוא נשאר סוד גמור עבור כל השחקנים עד לסוף המשחק",
     variations: [
       {
@@ -56,7 +126,7 @@ export const characterList = [
   {
     id: 1,
     name: "Agravain",
-    image: morgana,
+    image: agravin,
     reason: "עוזר לרעים במהשלך המשחק אך מקשה על הרעים בהתנקשות ב Merlin.",
     variations: [
       {
@@ -77,7 +147,7 @@ export const characterList = [
   {
     id: 2,
     name: "Arthur",
-    image: morgana,
+    image: arthur,
     reason: "דורש מ Arthur יכולת תמרון טובה, המשחק יהיה יותר חי מתמיד.",
     variations: [
       {
@@ -132,7 +202,7 @@ export const characterList = [
   {
     id: 3,
     name: "Assassin",
-    image: morgana,
+    image: assassin,
     reason: "",
     variations: [
       {
@@ -147,7 +217,7 @@ export const characterList = [
   {
     id: 4,
     name: "Balin",
-    image: morgana,
+    image: balin,
     reason:
       "אותם החוקים כמו Lancelot's רק שעכשיו אי הוודאות מוכפלת. אופציה 3 עושה לרעים חיים טיפה יותר רעים.",
     variations: [
@@ -184,7 +254,7 @@ export const characterList = [
   {
     id: 5,
     name: "Balain",
-    image: morgana,
+    image: balain,
     reason: "יתרון לרעים",
     variations: [
       {
@@ -211,7 +281,7 @@ export const characterList = [
   {
     id: 6,
     name: "Blanchefleur",
-    image: morgana,
+    image: blanchefleur,
     reason: "דמות שמוסיפה כוח לטובים אם היא תצליח לגלות איזה מהמשפטים נכון.",
     variations: [
       {
@@ -239,7 +309,7 @@ export const characterList = [
   {
     id: 7,
     name: "Bors",
-    image: morgana,
+    image: bors,
     reason: "נותן יתרון לטובים. אם כי מקל על הרעים מאוד במציאת Merlin.",
     variations: [
       {
@@ -260,7 +330,7 @@ export const characterList = [
   {
     id: 8,
     name: "Brute",
-    image: morgana,
+    image: brute,
     reason: "",
     variations: [
       {
@@ -275,7 +345,7 @@ export const characterList = [
   {
     id: 9,
     name: "Caradoc",
-    image: morgana,
+    image: caradoc,
     reason: "Fail מזוייף יוסיף חוסר ודאות למשחק.",
     variations: [
       {
@@ -290,7 +360,7 @@ export const characterList = [
   {
     id: 10,
     name: "Chief I Good",
-    image: morgana,
+    image: chiefgood1,
     reason: "",
     variations: [
       {
@@ -306,7 +376,7 @@ export const characterList = [
   {
     id: 11,
     name: "Chief II Good",
-    image: morgana,
+    image: chiefgood2,
     reason: "",
     variations: [
       {
@@ -322,7 +392,7 @@ export const characterList = [
   {
     id: 12,
     name: "Chief I Bad",
-    image: morgana,
+    image: chiefbad1,
     reason: "",
     variations: [
       {
@@ -338,7 +408,7 @@ export const characterList = [
   {
     id: 13,
     name: "Chief II Bad",
-    image: morgana,
+    image: chiefbad2,
     reason: "",
     variations: [
       {
@@ -354,7 +424,7 @@ export const characterList = [
   {
     id: 14,
     name: "Cordana",
-    image: morgana,
+    image: cordana,
     reason:
       "זהו תפקיד ה Assassin עבור השחקנים הטובים. יהיה יותר קל לחבר'ה הרעים לזהות את מרלין, אבל החבר'ה הטובים זוכים בהזדמנות לנצח את הרעים גם אם הרעים ניצחו.",
     variations: [
@@ -414,7 +484,7 @@ export const characterList = [
   {
     id: 15,
     name: "Dagonet",
-    image: morgana,
+    image: dagonet,
     reason: "מוסיף ענין לויכוח ההתנקשות.",
     variations: [
       {
@@ -440,7 +510,7 @@ export const characterList = [
   {
     id: 16,
     name: "Dummy",
-    image: morgana,
+    image: dummy,
     reason: "",
     variations: [
       {
@@ -454,7 +524,7 @@ export const characterList = [
   {
     id: 17,
     name: "Ector",
-    image: morgana,
+    image: ector,
     reason:
       "משמש ככוח עבור כל השחקנים. השחקנים שיהיו יותר משכנעים יוכלו לזכות בהצבעה של הקטור שתוכל להוביל אותם לניצחון.",
     variations: [
@@ -532,7 +602,7 @@ export const characterList = [
   {
     id: 18,
     name: "Elaine",
-    image: morgana,
+    image: elaine,
     reason: "מאפשרת מידע לטובים מבלי להפסיד משלחת.",
     variations: [
       {
@@ -567,7 +637,7 @@ export const characterList = [
   {
     id: 19,
     name: "Evil Messenger",
-    image: morgana,
+    image: evilmessenger,
     reason: "",
     variations: [
       {
@@ -582,7 +652,7 @@ export const characterList = [
   {
     id: 20,
     name: "Galahad",
-    image: morgana,
+    image: galahad,
     reason: "",
     variations: [
       {
@@ -604,7 +674,7 @@ export const characterList = [
   {
     id: 21,
     name: "Gawain",
-    image: morgana,
+    image: sirgawain,
     reason: "המשימה האחרונה נעשית אפילו יותר לא ברורה עבור 2 הצדדים.",
     variations: [
       {
@@ -651,7 +721,7 @@ export const characterList = [
   {
     id: 22,
     name: "Ginevra",
-    image: morgana,
+    image: ginevra,
     reason: "מונע מהמשחק להגמר מהר מדי.",
     variations: [
       {
@@ -678,7 +748,7 @@ export const characterList = [
   {
     id: 23,
     name: "Gornemant",
-    image: morgana,
+    image: gornemant,
     reason: "יתרון לטובים.",
     variations: [
       {
@@ -701,7 +771,7 @@ export const characterList = [
   {
     id: 24,
     name: "Guinevere",
-    image: morgana,
+    image: guinevere,
     reason:
       "אופציה 1: מענקה יתרון לטובים. אופציה 2: אם השחקנים מהקבוצה השניה במשחק מצליחים לגלות מיהם Guinevere ו Lancelot הם מגיעים ליתרון עצום במשחק. או שנמצאו 2 רעים או שנטרלו 2 מועמדים אפשריים לתפקיד של Merlin. אופציה 4: מגדיל את חוסר הודאות לגבי מתי Lancelot מתחלף.",
     variations: [
@@ -742,7 +812,7 @@ export const characterList = [
   {
     id: 25,
     name: "Hunter (good)",
-    image: morgana,
+    image: huntergood,
     reason: "",
     variations: [
       {
@@ -757,7 +827,7 @@ export const characterList = [
   {
     id: 26,
     name: "Hunter (bad)",
-    image: morgana,
+    image: hunterbad,
     reason: "",
     variations: [
       {
@@ -773,7 +843,7 @@ export const characterList = [
   {
     id: 27,
     name: "Iseult & Tristan (אוהבים)",
-    image: morgana,
+    image: inlove,
     reason: "מקנה יתרון לטובים",
     variations: [
       {
@@ -792,8 +862,8 @@ export const characterList = [
   },
   {
     id: 28,
-    name: "Javran",
-    image: morgana,
+    name: "Jarvan",
+    image: jarvan,
     reason:
       "נותן הזדמנות להציל את הטובים או לחילופין לחרוץ את גורלם. מעניק לרעים יתרון בהתנקשות במרלין.",
     variations: [
@@ -803,7 +873,7 @@ export const characterList = [
         limitation:
           "9+ שחקנים. שימוש באקסקליבר. עם שימוש בדמות זו על חברי השחקנים שנבחרים כחברי משלחת להניח את הקלף שבחרו הפוך על לפניהם כך שברור איזה שחקן בחר באיזה קלף",
         description:
-          "חושף את זהותו במספר מקרים: 1. אם מופעלת עליו Excalibur עליו לחשוף את הדמות שלו ולא לשנות את קלף המשימה שבחר. 2. אם משלחת ללא Javran מאושרת, רשאי להיחשף ולחשוף קלף הצבעה של שחקן, אם נחשף Success אזי Javran 'מוגלה' ואינו רשאי יותר להשתתף במשלחות עתיד או ביכולת זו, אם כי הוא עדין רשאי לשמש כמנהיג ולהצביע על אישור משלחות. אם נחשף קלף שאינו Success הוא מוחלף ל Success ו Javran לא מוגלה. 3. במידה ו Javran עוד לא נחשף במשימה האחרונה בלוח הוא רשאי לחשוף את קלף הדמות שלו לכולם. בעשותו כך הוא רשאי להורות לאילו שחקנים שהוא רוצה להחליף את קלף המשימה שלהם. השימוש בכוח של Excalibur בא לידי ביטוי לפני השימוש בכוחו של Javran.",
+          "חושף את זהותו במספר מקרים: 1. אם מופעלת עליו Excalibur עליו לחשוף את הדמות שלו ולא לשנות את קלף המשימה שבחר. 2. אם משלחת ללא Jarvan מאושרת, רשאי להיחשף ולחשוף קלף הצבעה של שחקן, אם נחשף Success אזי Jarvan 'מוגלה' ואינו רשאי יותר להשתתף במשלחות עתיד או ביכולת זו, אם כי הוא עדין רשאי לשמש כמנהיג ולהצביע על אישור משלחות. אם נחשף קלף שאינו Success הוא מוחלף ל Success ו Jarvan לא מוגלה. 3. במידה ו Jarvan עוד לא נחשף במשימה האחרונה בלוח הוא רשאי לחשוף את קלף הדמות שלו לכולם. בעשותו כך הוא רשאי להורות לאילו שחקנים שהוא רוצה להחליף את קלף המשימה שלהם. השימוש בכוח של Excalibur בא לידי ביטוי לפני השימוש בכוחו של Jarvan.",
       },
       {
         index: 2,
@@ -811,7 +881,7 @@ export const characterList = [
         limitation:
           "9+ שחקנים. שימוש באקסקליבר. עם שימוש בדמות זו על חברי השחקנים שנבחרים כחברי משלחת להניח את הקלף שבחרו הפוך על לפניהם כך שברור איזה שחקן בחר באיזה קלף",
         description:
-          "אם אקסקליבר מופעלת על Javran וזהותו נחשפת הוא מוגלה ממשלחות עתידיות.",
+          "אם אקסקליבר מופעלת על Jarvan וזהותו נחשפת הוא מוגלה ממשלחות עתידיות.",
       },
       {
         index: 3,
@@ -826,7 +896,7 @@ export const characterList = [
         limitation:
           "9+ שחקנים. שימוש באקסקליבר. עם שימוש בדמות זו על חברי השחקנים שנבחרים כחברי משלחת להניח את הקלף שבחרו הפוך על לפניהם כך שברור איזה שחקן בחר באיזה קלף",
         description:
-          "אם קסקליבר מופעלת על ידי Javran הוא רשאי לבחור אם הוא חושף את זהותו ובכך מנטרל את אקסקליבר.",
+          "אם קסקליבר מופעלת על ידי Jarvan הוא רשאי לבחור אם הוא חושף את זהותו ובכך מנטרל את אקסקליבר.",
       },
       {
         index: 5,
@@ -841,7 +911,7 @@ export const characterList = [
         loyalty: "טוב",
         limitation:
           "9+ שחקנים. שימוש באקסקליבר. עם שימוש בדמות זו על חברי השחקנים שנבחרים כחברי משלחת להניח את הקלף שבחרו הפוך על לפניהם כך שברור איזה שחקן בחר באיזה קלף",
-        description: "הרעים מכירים את Javran.",
+        description: "הרעים מכירים את Jarvan.",
       },
       {
         index: 7,
@@ -863,7 +933,7 @@ export const characterList = [
   {
     id: 29,
     name: "Junior Messenger",
-    image: morgana,
+    image: messengerjunior,
     reason: "",
     variations: [
       {
@@ -892,7 +962,7 @@ export const characterList = [
   {
     id: 30,
     name: "King Claudas",
-    image: morgana,
+    image: kingclaudas,
     reason:
       "כעת יש דמות טובה שמנסה במכוון לחפות על אחת מהרעות אך תוך כדי מנסה להמנע מלשלוח אותה למשימות.",
     variations: [
@@ -935,7 +1005,7 @@ export const characterList = [
   {
     id: 31,
     name: "Lancelot's",
-    image: morgana,
+    image: lancelots,
     reason: "מוסיף בלבול.",
     variations: [
       {
@@ -1001,7 +1071,7 @@ export const characterList = [
   {
     id: 32,
     name: "Lot",
-    image: morgana,
+    image: lot,
     reason:
       "נותן יתרון לרעים באישור המשלחות. הטובים לא יודעים אם מותר לסמוך גם על מילתו של אדם שהוכיח את עצמו במשימות.",
     variations: [
@@ -1066,7 +1136,7 @@ export const characterList = [
   {
     id: 33,
     name: "Loyal Servant of Arthur",
-    image: morgana,
+    image: servant,
     reason: "",
     variations: [
       {
@@ -1080,7 +1150,7 @@ export const characterList = [
   {
     id: 34,
     name: "Maeve",
-    image: morgana,
+    image: maeve,
     reason: "",
     variations: [
       {
@@ -1094,7 +1164,7 @@ export const characterList = [
   {
     id: 35,
     name: "Meliagant",
-    image: morgana,
+    image: meliagant,
     reason: "יתרון לרעים אך עם פגם בסוף.",
     variations: [
       {
@@ -1122,7 +1192,7 @@ export const characterList = [
   {
     id: 36,
     name: "Merlin",
-    image: morgana,
+    image: merlin,
     reason: "",
     variations: [
       {
@@ -1150,7 +1220,7 @@ export const characterList = [
   {
     id: 37,
     name: "Merlin X",
-    image: morgana,
+    image: merlinx,
     reason: "",
     variations: [
       {
@@ -1192,7 +1262,7 @@ export const characterList = [
   {
     id: 38,
     name: "Merlin's Apprentice",
-    image: morgana,
+    image: merlinapprentice,
     reason:
       "נותן לטובים יותר מידע על הרעים, אך באותו הזמן לרעים יש יותר אופציות להתנקשות בסוף המשחק.",
     variations: [
@@ -1227,7 +1297,7 @@ export const characterList = [
   {
     id: 39,
     name: "Melwas",
-    image: morgana,
+    image: melwas,
     reason: "",
     variations: [
       {
@@ -1277,7 +1347,7 @@ export const characterList = [
   {
     id: 40,
     name: "Minion of Mordred",
-    image: morgana,
+    image: minion,
     reason: "",
     variations: [
       {
@@ -1291,7 +1361,7 @@ export const characterList = [
   {
     id: 41,
     name: "Mora",
-    image: morgana,
+    image: mora,
     reason: "יתרון לרעים. מטשטש את עקבותיהם במשימות חשיפה.",
     variations: [
       {
@@ -1305,7 +1375,7 @@ export const characterList = [
   {
     id: 42,
     name: "Mordred",
-    image: morgana,
+    image: mordred,
     reason: "מפנה מקום לדמויות רעות חדשות בתפקידים חדשים למשחק.",
     variations: [
       {
@@ -1351,7 +1421,7 @@ export const characterList = [
   {
     id: 44,
     name: "Morgause",
-    image: morgana,
+    image: morgause,
     reason: "",
     variations: [
       {
@@ -1366,7 +1436,7 @@ export const characterList = [
   {
     id: 45,
     name: "Mute",
-    image: morgana,
+    image: mute,
     reason:
       "סיטואציה מצחיקה בה מתחילים עם מספר רב של פנטומימאים בתחילת המשחק שהולך ויורד ככל שהמשחק מתקדם.",
     variations: [
@@ -1389,7 +1459,7 @@ export const characterList = [
   {
     id: 46,
     name: "Ner'zhul",
-    image: morgana,
+    image: nerzhul,
     reason: "נותן יתרון לרעים כשאוברון במשחק.",
     variations: [
       {
@@ -1416,7 +1486,7 @@ export const characterList = [
   {
     id: 47,
     name: "Nilrem",
-    image: morgana,
+    image: nilrem,
     reason: "מעניק יתרון לטובים, יש שחקן אחד שכולם יודעים שהם יכולים לבטוח בו.",
     variations: [
       {
@@ -1437,7 +1507,7 @@ export const characterList = [
   {
     id: 48,
     name: "Nimue",
-    image: morgana,
+    image: nimue,
     reason:
       "לדמות זו הרבה מידע במשחק, אך לפעמים היא נותנת יתרון לרעים כשהיא שמה Fail.",
     variations: [
@@ -1453,7 +1523,7 @@ export const characterList = [
   {
     id: 49,
     name: "Oberon",
-    image: morgana,
+    image: oberon,
     reason: "רע שפוגע במידע של החבר'ה הרעים.",
     variations: [
       {
@@ -1493,7 +1563,7 @@ export const characterList = [
   {
     id: 50,
     name: "Oberon Fake",
-    image: morgana,
+    image: fakeoberon,
     reason: "",
     variations: [
       {
@@ -1514,8 +1584,8 @@ export const characterList = [
   },
   {
     id: 51,
-    name: "Pelinor",
-    image: morgana,
+    name: "Pellinore",
+    image: pellinore,
     reason:
       "משחק בתוך משחק, לטובים יותר קל לזהות אחד מהרעים אך לפעמים יציע שחקנים רעים למשלחות במכוון מתוך מטרה לפגוש בחיה.",
     variations: [
@@ -1531,7 +1601,7 @@ export const characterList = [
   {
     id: 52,
     name: "Percival",
-    image: morgana,
+    image: percival,
     reason: "ל Percival לוקח יותר זמן להבין מיהו Merlin או לא מוצא אותו כלל.",
     variations: [
       {
@@ -1583,7 +1653,7 @@ export const characterList = [
   {
     id: 53,
     name: "Polygraph",
-    image: morgana,
+    image: polygraph,
     reason:
       "מקל על הרעים במצבים בהם רוצים להמנע מ Fail כפול. אך מנגד לטובים קל הרבה יותר לעלות על עקבותיו.",
     variations: [
@@ -1611,7 +1681,7 @@ export const characterList = [
   {
     id: 54,
     name: "Prince Claudin",
-    image: morgana,
+    image: princeclaudin,
     reason:
       "כעת יש דמות טובה שמנסה במכוון לחפות על אחת מהרעות אך תוך כדי מנסה להמנע מלשלוח אותה למשימות. מחליש את הטובים.",
     variations: [
@@ -1640,7 +1710,7 @@ export const characterList = [
   {
     id: 55,
     name: "Puck",
-    image: morgana,
+    image: puck,
     reason:
       "מוסיף מתח למשימה שלפני האחרונה. מאפשר לנצל את כל המשימות בלוח. בכללי דמות מאזנת.",
     variations: [
@@ -1663,7 +1733,7 @@ export const characterList = [
   {
     id: 56,
     name: "Queen Mab",
-    image: morgana,
+    image: queenmab,
     reason: "מוריד מהאמינות של ה Lady Of The Lake.",
     variations: [
       {
@@ -1683,7 +1753,7 @@ export const characterList = [
   {
     id: 57,
     name: "Raven",
-    image: morgana,
+    image: raven,
     reason: "מוריד מהאמינות של ה Lady Of The Lake.",
     variations: [
       {
@@ -1697,7 +1767,7 @@ export const characterList = [
   {
     id: 58,
     name: "Reverser Good",
-    image: morgana,
+    image: reversergood,
     reason: "מוסיף תהפוכות וחוסר בטחון למשחק.",
     variations: [
       {
@@ -1717,7 +1787,7 @@ export const characterList = [
   {
     id: 59,
     name: "Reverser Bad",
-    image: morgana,
+    image: reverserbad,
     reason: "מוסיף תהפוכות וחוסר בטחון למשחק.",
     variations: [
       {
@@ -1738,7 +1808,7 @@ export const characterList = [
   {
     id: 60,
     name: "Rouge Good",
-    image: morgana,
+    image: rougegood,
     reason: "",
     variations: [
       {
@@ -1759,7 +1829,7 @@ export const characterList = [
   {
     id: 61,
     name: "Rouge Bad",
-    image: morgana,
+    image: rougebad,
     reason: "",
     variations: [
       {
@@ -1780,7 +1850,7 @@ export const characterList = [
   {
     id: 62,
     name: "Seer",
-    image: morgana,
+    image: seer,
     reason: "מחזק מאוד את הטובים.",
     variations: [
       {
@@ -1800,7 +1870,7 @@ export const characterList = [
   {
     id: 63,
     name: "Senior Messenger",
-    image: morgana,
+    image: messengersenior,
     reason: "",
     variations: [
       {
@@ -1815,7 +1885,7 @@ export const characterList = [
   {
     id: 64,
     name: "Sir Kay",
-    image: morgana,
+    image: sirkay,
     reason: "מבלבל את Merlin ומעניק לרעים יותר מרווח פעולה.",
     variations: [
       {
@@ -1855,7 +1925,7 @@ export const characterList = [
   {
     id: 65,
     name: "Sir Robin",
-    image: morgana,
+    image: sirrobin,
     reason: "",
     variations: [
       {
@@ -1895,7 +1965,7 @@ export const characterList = [
   {
     id: 66,
     name: "Stray",
-    image: morgana,
+    image: stray,
     reason:
       "מוסיף אתגר למשחק. מאתגר את השחקנים, יש לזכור את הדמויות במשחק ולחשוב על האופציות שיכולות לצאת ל Stray.",
     variations: [
@@ -1938,7 +2008,7 @@ export const characterList = [
   {
     id: 67,
     name: "The Coward",
-    image: morgana,
+    image: coward,
     reason: "מוסיף ענין להתנקשות. יכול לתת לרעים יתרון בהתנקשות ב Merlin.",
     variations: [
       {
@@ -1951,408 +2021,154 @@ export const characterList = [
     ],
   },
   {
-    id: 600,
-    name: "",
-    image: morgana,
+    id: 68,
+    name: "The Green Knight",
+    image: greenknight,
     reason: "",
     variations: [
       {
         index: 1,
-        loyalty: "",
+        loyalty: "רע",
         limitation: "",
-        description: "",
+        description:
+          "אם הטובים מנצחים במשימה לפני האחרונה בלוח הוא חושף את עצמו ואז על הטובים לנצח במשימה נוספת.",
       },
     ],
   },
   {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
+    id: 69,
+    name: "The Questing Beast",
+    image: questingbeast,
+    reason:
+      "מוסיף ענין, משחק בתוך משחק. נותן יתרון לטובים, יש רע שקל יותר לעלות על עקבותיו.",
     variations: [
       {
         index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
+        loyalty: "ניטרלי",
+        limitation: "7+ שחקנים. במקום דמות רעה, דורש Pelinor.",
+        description:
+          "המטרה שלו היא להפגין נוכחות ואז להתחמק מ Pelinor עד סוף המשחק. יודע מיהו Pelinor . חייב לשים את קלף ה Questing Beast Was Here בכל משימה אליה הוא יוצא מלבד במשימה אחת בה הוא רשאי לשים success במטרה להתנער מ Pelinor . דמות זו מנצחת אם התקיימו כל התנאים הבאים: 1. לפחות פעם אחת לאורך המשחק הופיע קלף ה Questing Beast Was Here.  2. או ש א) Pelinor אף פעם לא במשלחת בה מופיע קלף ה Questing Beast Was Here או ש ב) רוב המשימות בלוח נכשלו. 3 . Pelinor נכשל בזיהוי של ה Questing Beast בסוף המשחק.",
+      },
+      {
+        index: 2,
+        loyalty: "ניטרלי",
+        limitation: "דורש Uther Pendragon.",
+        description:
+          "רואה את Uther Pendragon, אם יוצאים יחד למשלחת יכול לשים Success. אם משתתף בדיון ההתנקשות- מפסיד. ",
       },
     ],
   },
   {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
+    id: 70,
+    name: "The Revealer",
+    image: revealer,
+    reason: "מחליש את הרעים.",
     variations: [
       {
         index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
+        loyalty: "רע",
+        limitation: "7+ שחקנים",
+        description:
+          "אם לרעים נותרה משימה אחת בשביל להגיע לניצחון, חייב לחשוף את זהותו.",
       },
     ],
   },
   {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
+    id: 71,
+    name: "Titania",
+    image: titania,
+    reason: 'הרעים יקבלו fail "חינם" מקל על הרעים במציאת Merlin בהמשך.',
     variations: [
       {
         index: 1,
-        loyalty: "",
+        loyalty: "טוב",
         limitation: "",
-        description: "",
+        description: "שם fail במשלחת הראשונה שהוא נוכח בה.",
+      },
+      {
+        index: 2,
+        loyalty: "טוב",
+        limitation: "",
+        description: "הרעים מכירים את Titania.",
+      },
+      {
+        index: 3,
+        loyalty: "טוב",
+        limitation: "",
+        description: "במשימה האחרונה בלוח שם Success על כל מקרה.",
       },
     ],
   },
   {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
+    id: 72,
+    name: "Tom Thumb",
+    image: tomthumb,
+    reason: "מחזק מאוד את הטובים.",
     variations: [
       {
         index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
+        loyalty: "טוב",
+        limitation: "7+ שחקנים",
+        description:
+          "אם לרעים נותרה משימה אחת בשביל להגיע לניצחון, רשאי לראות 2 דמויות טובות לבחירתו.  אם לרעים נותרה משימה אחת לניצחון כולם עוצמים עיניים וכל דמות טובה מצביעה כשהיא נקראת. Tom-Thumb פותח את עיניו בדמויות בהן יש לו עניין.",
       },
     ],
   },
   {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
+    id: 73,
+    name: "Uther Pendragon",
+    image: utherpendragon,
+    reason:
+      'דמות זו עוזרת ל 2 הצדדים. הטובים צריכים "להחביא" אותה כדי לא להקל על הרעים במציאת Merlin .',
     variations: [
       {
         index: 1,
-        loyalty: "",
+        loyalty: "טוב",
         limitation: "",
-        description: "",
+        description:
+          "כשיוצא למשלחת חייב לשים קלף ריק. אם מופעלת עליו   אקסלייבר חייב לשים Success.",
       },
     ],
   },
   {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
+    id: 74,
+    name: "Viviana",
+    image: viviana,
+    reason:
+      "שחקנים טובים יצטרכו להפנות את Viviana לבדוק את הרעים מהר ככל האפשר. בעוד Merlin יודע הכל מראש, Viviana מגלה קצת בכל פעם.",
     variations: [
       {
         index: 1,
-        loyalty: "",
+        loyalty: "טוב",
         limitation: "",
-        description: "",
+        description:
+          "אם משלחת יוצאת רואה את נאמנות המנהיג שבחר אותה. כל השחקנים סוגרים את עיניהם. Viviana פותח מחדש את עיניו והמנהיג מראה לו אגודל למעלה, אם הוא דמות טובה או דמות שבלתי נראית ל Merlin ואגודל למטה אם הוא מופיע כרע ל Merlin . בסוף המשחק הרעים רשאים להתנקש בViviana.",
       },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
       {
-        index: 1,
-        loyalty: "",
+        index: 2,
+        loyalty: "טוב",
         limitation: "",
-        description: "",
+        description: "יכול לראות את המנהיג ואת השחקן שהיה לפניו.",
       },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
       {
-        index: 1,
-        loyalty: "",
+        index: 3,
+        loyalty: "טוב",
         limitation: "",
-        description: "",
+        description:
+          'כל שחקן בוחר שחקן שהוא רוצה שViviana יבדוק. השחקן עם הכי הרבה הצבעות נראה ע"י Viviana, במקרה של תיקו יש לזרוק מטבע.',
       },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
       {
-        index: 1,
-        loyalty: "",
+        index: 4,
+        loyalty: "טוב",
         limitation: "",
-        description: "",
+        description: "רואה את 2 השחקנים בעלי מספר ההצבעות הגדולות ביותר.",
       },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
       {
-        index: 1,
-        loyalty: "",
+        index: 5,
+        loyalty: "טוב",
         limitation: "",
-        description: "",
-      },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
-      {
-        index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
-      },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
-      {
-        index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
-      },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
-      {
-        index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
-      },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
-      {
-        index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
-      },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
-      {
-        index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
-      },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
-      {
-        index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
-      },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
-      {
-        index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
-      },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
-      {
-        index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
-      },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
-      {
-        index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
-      },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
-      {
-        index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
-      },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
-      {
-        index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
-      },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
-      {
-        index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
-      },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
-      {
-        index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
-      },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
-      {
-        index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
-      },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
-      {
-        index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
-      },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
-      {
-        index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
-      },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
-      {
-        index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
-      },
-    ],
-  },
-  {
-    id: 600,
-    name: "",
-    image: morgana,
-    reason: "",
-    variations: [
-      {
-        index: 1,
-        loyalty: "",
-        limitation: "",
-        description: "",
+        description:
+          "רואה רק את נאמנות מנהיג המשלחת הראשונה שיצאה במשחק. לא יכולים להתנקש בו.",
       },
     ],
   },
